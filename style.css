@@ -7,6 +7,7 @@
 body {
   background-color: #09090A;
   color: white;
+
   height: 100vh;
   
 }
@@ -18,6 +19,7 @@ header{
   padding: 48px;
   position: fixed;
   width: 100%;
+  background-color: #09090a;
   
   
 } 
@@ -25,7 +27,7 @@ button{
   padding: 16px 24px;
   border-radius: 8px;
   border: 1px solid #8b5cf6;
-  background: transparent;
+  background-color: transparent;
   color: white;
   gap: 12px;
 
@@ -39,6 +41,7 @@ button{
 }
 #form-habits{
   display: flex; 
+
   padding: 182px  48px 48px;
   width: fit-content;
 }
@@ -46,6 +49,7 @@ button{
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+  
   gap: 24px;
 }
 .habit{
